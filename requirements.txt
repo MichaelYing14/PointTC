@@ -1,0 +1,4 @@
+# Install PyTorch/PyTorch3D separately; see README.md.
+numpy==1.26.4
+h5py==3.11.0
+open3d==0.18.0

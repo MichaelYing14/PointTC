@@ -1,0 +1,24 @@
+{
+  "method": "ca_ra",
+  "channel": "rayleigh",
+  "num_points": 2048,
+  "num_symbols": 300,
+  "qam_order": 64,
+  "revise": true,
+  "train_snr": [
+    -0.5,
+    10.5
+  ],
+  "val_snrs": [
+    0,
+    2.5,
+    5,
+    7.5,
+    10
+  ],
+  "epochs": 200,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "rate_weight": 0.2
+}
